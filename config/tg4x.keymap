@@ -48,10 +48,10 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,4)                                 RC(3,5) RC(7,1) 
 
 		function_layer {
 			bindings = <
-&kp GRAVE &kp N1   &kp N2    &kp N3 &kp N4 &kp N5 &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &kp MINUS &kp EQUAL
-&none     &trans   &kp PG_UP &trans &trans &trans &trans   &kp PSCRN &kp LBKT  &kp RBKT  &kp SEMI           &trans
-&trans    &trans   &kp PG_DN &trans &trans &trans &trans   &trans    &kp BSLH  &kp FSLH  &kp PG_UP 	    &trans
-&trans    &trans   &trans    &trans                        &trans    &trans    &kp HOME  &kp PG_DN          &kp END
+&kp GRAVE    &kp N1   		   &kp N2           &kp N3           &kp N4           &kp N5            &kp N6   &kp N7             &kp N8             &kp N9         &kp N0      &kp MINUS  &kp EQUAL
+&trans       &trans   		   &trans           &kp HOME         &kp END          &kp RET           &trans   &trans             &kp LBKT           &kp RBKT       &kp SEMI               &trans
+&trans       &kp DEL  		   &KP BSPC         &kp PG_UP        &kp PG_DN        &trans            &trans   &trans             &trans             &kp BSLH       &kp FSLH 	             &trans
+&trans       &trans   		   &trans           &trans                                                       &trans             &trans             &trans         &trans                 &trans
 			>;
 		};
 
