@@ -37,14 +37,14 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,4)                                 RC(3,5) RC(7,1) 
 			bindings = <&kp>, <&kp>;
 		};
 	}; */
-	combos {
+	/*combos {
 	        compatible = "zmk,combos";
 	        combo_esc {
 	            timeout-ms = <50>;
 	            key-positions = <0 1>;
 	            bindings = <&kp ESC>;
 	        };
-	};
+	};*/
 
 	keymap {
 		compatible = "zmk,keymap";
@@ -76,14 +76,14 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,4)                                 RC(3,5) RC(7,1) 
 			>;
 		};
 
-/*		other_layer2 {
+		other_layer2 {
 			bindings = <
 &trans       &rgb_ug RGB_TOG   &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFR   &trans   &trans             &kp UP             &trans         &trans      &trans     &trans
 &trans       &trans            &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF   &trans   &kp LEFT           &kp DOWN           &kp RIGHT      &trans                 &trans
 &trans       &trans            &trans           &trans           &trans           &trans            &trans   &trans             &trans             &trans         &trans                 &trans
 &trans       &trans            &trans           &trans                                              &trans   &trans             &trans             &trans                                &trans
 			>;
-		}; */
+		};
 
 	};
 };
